@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+#dropdown {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+ 
+label[for="numbers"] {
+  margin-left: 10px;
+}
+
+
+#imgs {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-left: 20px; /* Adjusted to add padding to the left */
+  padding: 10px 20px;
+  
+}
+
+.numberDiv {
+  position: relative;
+}
+
+#imgs img {
+  margin-right: 10px;
+  margin-bottom: 10px; 
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.selected {
+  border: 2px solid blue; /* Add a border for visual indication */
+}
+
+.overlay-number {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: blue;
+  padding: 3px 6px;
+  height: 10%;
+  width: 80%;
+}
